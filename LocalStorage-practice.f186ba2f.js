@@ -1,0 +1,2 @@
+localStorage.setItem("mess","Hello!");let e=JSON.stringify({login:"qwerty",password:"3758"});localStorage.setItem("userInfo",e);let o=localStorage.getItem("userInfo");console.log(o,typeof o);let l=JSON.parse(o);console.log(l,typeof l),localStorage.setItem("arr",["Mariya","Ira","Sofia","Danil"]),localStorage.setItem("num",17),localStorage.removeItem("arr"),console.dir(localStorage),console.log(localStorage.length);
+//# sourceMappingURL=LocalStorage-practice.f186ba2f.js.map
